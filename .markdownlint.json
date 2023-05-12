@@ -1,0 +1,27 @@
+{
+  "MD033": {
+    "allowed_elements": [
+      "br",
+      "nobr",
+      "sup",
+      "p",
+      "a",
+      "div",
+      "img",
+      "kbd",
+      "style",
+      "script",
+      "Toc",
+      "Tweet",
+      "arrow",
+      "Counter",
+      "carbon-logo-github"
+    ]
+  },
+  "MD013": {
+    "line_length": 115
+  },
+  "MD025": false,
+  "MD040": false,
+  "MD001": false
+}
