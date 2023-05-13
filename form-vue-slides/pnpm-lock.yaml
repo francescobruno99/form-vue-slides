@@ -14,6 +14,11 @@ dependencies:
     specifier: '*'
     version: 0.21.3
 
+devDependencies:
+  '@iconify-json/logos':
+    specifier: ^1.1.29
+    version: 1.1.29
+
 packages:
 
   /@ampproject/remapping@2.2.1:
@@ -572,6 +577,12 @@ packages:
       '@iconify/types': 2.0.0
     dev: false
 
+  /@iconify-json/logos@1.1.29:
+    resolution: {integrity: sha1-BJ9KyvXisAnzCm0kFZB0DMB/CvU=}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify-json/ph@1.1.5:
     resolution: {integrity: sha1-FXp1WZRcLIa6sIIQke9Rgce5kp4=}
     dependencies:
@@ -580,7 +591,6 @@ packages:
 
   /@iconify/types@2.0.0:
     resolution: {integrity: sha1-qw6epoHWyKEhTzDNdB/jogzFf1c=}
-    dev: false
 
   /@iconify/utils@2.1.5:
     resolution: {integrity: sha1-dcF0EKrexyTSq3vXHocQ5EgQJDg=}

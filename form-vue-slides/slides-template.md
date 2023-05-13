@@ -56,7 +56,9 @@ It will be visible and editable in Presenter Mode along with the slide.
 
 ---
 
-## transition: fade-out
+---
+transition: fade-out
+---
 
 # What is Slidev?
 
