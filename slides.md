@@ -1,8 +1,7 @@
 ---
 layout: cover
 theme: default
-# background: https://source.unsplash.com/collection/94734566/1920x1080
-background: './assets/background-pattern.jpg'
+background: ./assets/bg-waves.png
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -18,22 +17,32 @@ css: unocss
 title: FORM-VUE
 ---
 
-# FORM-VUE
+<!-- # FORM-VUE -->
+<div class="slide1">
+  <div class="flex flex-col gap-10">
+    <img src="/assets/volverjs-form.svg" class="m-auto" >
+    <h1>@volverjs/form-vue</h1>
+  </div>
 
-Presentation slides for Vue developers
-
-<div class="abs-br m-6 flex flex-items-center gap-2">
-  <a href="https://vuejs.org/" target="_blank" alt="Vue 3"
-    class="text-xl slidev-icon-btn opacity-80 !border-none !hover:text-white">
-    <logos:vue />
-  </a>
-  <a href="https://github.com/volverjs/form-vue" target="_blank" alt="GitHub"
-    class="text-xl slidev-icon-btn opacity-80 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
+  <div class="abs-br m-6 flex flex-items-center gap-2">
+    <a href="https://vuejs.org/" target="_blank" alt="Vue 3"
+      class="text-xl slidev-icon-btn opacity-80 !border-none !hover:text-white">
+      <logos:vue />
+    </a>
+    <a href="https://github.com/volverjs/form-vue" target="_blank" alt="GitHub"
+      class="text-xl slidev-icon-btn opacity-80 !border-none !hover:text-white">
+      <carbon-logo-github />
+    </a>
+  </div>
 </div>
 
 <style>
+  /* .slide1 {
+    background-image: url("/assets/bg-wave-left.svg"), url("/assets/bg-wave-right.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+  } */
   h1 {
     color: #6ec88b;
   }
@@ -43,6 +52,11 @@ Presentation slides for Vue developers
 The last comment block of each slide will be treated as slide notes.
 It will be visible and editable in Presenter Mode along with the slide.
 [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+1. Cos’è from-vue e a cosa serve? 
+  -> form-vue è una libreria di volverjs che permette la creazione di form in Vue 3 con uno schema Zod Object
+
+
+   
 -->
 
 ---

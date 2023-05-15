@@ -14,6 +14,7 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 - 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
 - 🛠 **Hackable** - anything possible on a webpage
 
+<!-- <img src="/assets/volverjs-form.svg" > -->
 <br>
 <br>
 
