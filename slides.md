@@ -12,7 +12,7 @@ info: |
   Learn more at [Sli.dev](https://sli.dev)
 drawings:
   persist: false
-transition: slide-left
+transition: fade-out
 css: unocss
 title: FORM-VUE
 ---
@@ -44,19 +44,22 @@ title: FORM-VUE
     background-position: left top, right bottom;
   } */
   h1 {
-    color: #6ec88b;
+    color: #fff;
   }
+
 </style>
+
+<!--
+  colore form-vue (arancione) -> #e6b457
+  colore volver (verde) -> 27c57e
+-->
 
 <!--
 The last comment block of each slide will be treated as slide notes.
 It will be visible and editable in Presenter Mode along with the slide.
 [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 1. Cos’è from-vue e a cosa serve? 
-  -> form-vue è una libreria di volverjs che permette la creazione di form in Vue 3 con uno schema Zod Object
-
-
-   
+  -> form-vue è una libreria di volver che permette la creazione di form in Vue 3 con uno schema Zod Object
 -->
 
 ---
