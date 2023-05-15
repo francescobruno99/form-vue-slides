@@ -2,11 +2,11 @@ name: Deploy pages
 on: push
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-    contents: read
-    pages: write
-    id-token: write
+  contents: read
+  pages: write
+  id-token: write
 jobs:
-  build: 
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -14,17 +14,17 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: "16"
       - name: Install dependencies
         run: npm install
       - name: Install slidev
-        run:  npm i -g @slidev/cli
+        run: npm i -g @slidev/cli
       - name: Build
         run: slidev build --base form-vue-slides
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: './dist'
+          path: "./dist"
 
   deploy:
     environment:
@@ -36,3 +36,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+  
