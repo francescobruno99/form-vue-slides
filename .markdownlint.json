@@ -19,10 +19,11 @@
     ]
   },
   "MD013": {
-    "line_length": 115
+    "line_length": 200
   },
   "MD025": false,
   "MD040": false,
+  "MD041": false,
   "MD001": false,
   "MD022": false,
   "MD003": false,

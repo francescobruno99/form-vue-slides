@@ -2,25 +2,29 @@
 transition: slide-up
 ---
 
-# Navigation
+# Form-vue elements
 
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
+Sono quattro i componenti che abbiamo creato per poter sviluppare una form in Vue
 
-### Keyboard Shortcuts
+|                                                                                                 |                             |
+| ----------------------------------------------------------------------------------------------- | --------------------------- |
+| <kbd>[VvForm](https://github.com/volverjs/form-vue#vvform)</kbd>                                | ```<form>``` tag            |
+| <kbd>[VvFormWrapper](https://github.com/volverjs/form-vue#vvformwrapper)</kbd>                  | ```<fieldset>``` tag        |
+| <kbd>[VvFormField](https://github.com/volverjs/form-vue/blob/develop/docs/VvFormField.md)</kbd> | ```<input>``` tag           |
+| <kbd>[VvFormTemplate](https://github.com/volverjs/form-vue#vvformtemplate)</kbd>                | JSON-schema                 |
 
-|                                                    |                             |
-| -------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                | next animation or slide     |
-| <kbd>left</kbd> / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                      | previous slide              |
-| <kbd>down</kbd>                                    | next slide                  |
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(75deg, #27c57e 10%, #e6b457 40%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-/>
-
-<p v-after class="absolute bottom-2 left-45 opacity-30 transform -rotate-10">Here!</p>
+<!--
+insert comment here!
+-->

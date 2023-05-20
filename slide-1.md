@@ -21,8 +21,7 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 <!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
+Vue 3 forms made simple with @volverjs/ui-vue and Zod.
 -->
 
 <style>
