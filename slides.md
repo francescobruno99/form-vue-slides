@@ -25,10 +25,10 @@ title: FORM-VUE
   </div>
 
   <div class="abs-br m-6 flex flex-items-center gap-2">
-    <a href="https://vuejs.org/" target="_blank" alt="Vue 3"
+    <!-- <a href="https://vuejs.org/" target="_blank" alt="Vue 3"
       class="text-xl slidev-icon-btn opacity-80 !border-none !hover:text-white">
       <logos:vue />
-    </a>
+    </a> -->
     <a href="https://github.com/volverjs/form-vue" target="_blank" alt="GitHub"
       class="text-xl slidev-icon-btn opacity-80 !border-none !hover:text-white">
       <carbon-logo-github />
@@ -72,6 +72,10 @@ src: './slide-2.md'
 
 ---
 src: './slide-3.md'
+---
+
+---
+src: './slide-4.md'
 ---
 
 ---
@@ -376,7 +380,6 @@ src: ./pages/multiple-entries.md
 hide: false
 
 ---
-
 
 ---
 
