@@ -1,7 +1,6 @@
 ---
-transition: fade-out
+transition: slide-up #fade-out
 layout: two-cols
-title: Right
 ---
 
 ::right::
@@ -33,7 +32,7 @@ const User = z.object({
   firstName: z.string(),
   lastName: z.string(),
   nickname: z.string(),
-  age: z.number().min(18),
+  age: z.number().int().min(18),
   email: z.string().email(),
   role: z.enum(role),
 });

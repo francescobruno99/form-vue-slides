@@ -1,5 +1,5 @@
 ---
-transition: fade-out
+transition: slide-up
 ---
 
 # Cos'è form-vue ed a cosa serve?

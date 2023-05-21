@@ -6,13 +6,13 @@ class: text-center
 highlighter: shiki
 lineNumbers: false
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+  ## @volverjs/form-vue
+  Vue 3 forms made simple with @volverjs/ui-vue and Zod.
 
-  Learn more at [Sli.dev](https://sli.dev)
+  Learn more at [VolverJS](https://github.com/volverjs/form-vue) on Github
 drawings:
   persist: false
-transition: fade-out
+transition: slide-up #fade-out
 css: unocss
 title: FORM-VUE
 ---
@@ -76,6 +76,22 @@ src: './slide-3.md'
 
 ---
 src: './slide-4.md'
+---
+
+---
+src: './slide-5.md'
+---
+
+---
+src: './slide-6.md'
+---
+
+---
+src: './slide-7.md'
+---
+
+---
+src: './slide-8.md'
 ---
 
 ---

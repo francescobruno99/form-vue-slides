@@ -13,6 +13,19 @@ transition: slide-up
 | <kbd>[VvFormField](https://github.com/volverjs/form-vue/blob/develop/docs/VvFormField.md)</kbd> | ```<input>``` tag           |
 | <kbd>[VvFormTemplate](https://github.com/volverjs/form-vue#vvformtemplate)</kbd>                | JSON schema                 |
 
+```html{none|all}
+<form id="signIn">
+  <fieldset>
+    <legend>Your credentials</legend>
+    <label for="username">Username</label>
+    <input id="username" name="username" type="text" placeholder="Username" required autofocus>
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" placeholder="example@domain.com" required>
+    <button type=submit>Sign In</button>
+  </fieldset>
+</form>
+```
+
 <style>
 h1 {
   background-color: #2B90B6;

@@ -5,9 +5,12 @@ preload: false
 
 # Form HTML
 
-<img v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }" src="/assets/form-sample.png" class="img-form-sample my-5 m-auto" >
+<div>
+  <img v-motion
+      :initial="{ x: -80, opacity: 0}"
+      :enter="{ x: 0, opacity: 1, transition: { delay: 800, duration: 1000 } }"
+      src="/assets/form-sample.png" class="img-form-sample my-5 m-auto">
+</div>
 
 ```html{none|all}
 <form id="signIn">
