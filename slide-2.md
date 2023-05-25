@@ -9,18 +9,18 @@ layout: two-cols
 
 <br><br><br><br><br><br>
 
-- 🧑‍💻 **Developer Friendly** - si dichiara il validatore una sola volta e Zod inferirà automaticamente il tipo
-- 📝 **Ts-Docs** - documenta automaticamente lo "schema"
-- 🛠 **Easy to use** - offre moltissime regole di validazione built-in
-- ⚖️ **Zero dependencies** - non necessita di alcun pacchetto
+- 🧑‍💻 **Developer Friendly** - you declare a validator once and Zod will automatically infer the static TypeScript type
+- 📝 **Ts-Docs** - automatic documentation
+- 🛠 **Easy to use** - bult-in validation rules
+- ⚖️ **Zero dependencies** - tiny (8kb minified + zipped)
 
 ::default::
 
 # Zod
 
-[Zod](https://zod.dev) è una libreria Typescript per la validazione degli "schema".
+[Zod](https://zod.dev) is a TypeScript-first schema declaration and validation library.
 
-Tutto ciò avviene mediante lo **Zod Object**
+This is done using the **Zod Object**
 
 ```ts {none|all|1|3-13|15-16|all}
 import { z } from "zod";
