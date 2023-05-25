@@ -36,13 +36,13 @@ export const templateSchema = [
   {
     vvName: "username",
     vvType: "text",
-    label: "Username"
+    label: "Username",
   },
   {
     vvName: "email",
     vvType: "text",
-    label: "Email"
-  }
+    label: "Email",
+  },
 ];
 ```
 
@@ -87,5 +87,5 @@ h1 {
 </style>
 
 <!--
-insert comment here!
+VvFormTemplate ci permette di creare form di compilazione dati andando a creare un array di oggetti che descrive i campi di input.
 -->

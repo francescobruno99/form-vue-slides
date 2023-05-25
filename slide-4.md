@@ -6,12 +6,12 @@ transition: slide-up
 
 <!-- Sono quattro i componenti che abbiamo creato per poter sviluppare una form in Vue -->
 
-|                                                                                                 |                             |
-| ----------------------------------------------------------------------------------------------- | --------------------------- |
-| <kbd>[VvForm](https://github.com/volverjs/form-vue#vvform)</kbd>                                | ```<form>``` tag            |
-| <kbd>[VvFormWrapper](https://github.com/volverjs/form-vue#vvformwrapper)</kbd>                  | ```<fieldset>``` tag        |
-| <kbd>[VvFormField](https://github.com/volverjs/form-vue/blob/develop/docs/VvFormField.md)</kbd> | ```<input>``` tag           |
-| <kbd>[VvFormTemplate](https://github.com/volverjs/form-vue#vvformtemplate)</kbd>                | JSON schema                 |
+|                                                                                                 |                  |
+| ----------------------------------------------------------------------------------------------- | ---------------- |
+| <kbd>[VvForm](https://github.com/volverjs/form-vue#vvform)</kbd>                                | `<form>` tag     |
+| <kbd>[VvFormWrapper](https://github.com/volverjs/form-vue#vvformwrapper)</kbd>                  | `<fieldset>` tag |
+| <kbd>[VvFormField](https://github.com/volverjs/form-vue/blob/develop/docs/VvFormField.md)</kbd> | `<input>` tag    |
+| <kbd>[VvFormTemplate](https://github.com/volverjs/form-vue#vvformtemplate)</kbd>                | JSON schema      |
 
 ```html{none|all}
 <form id="signIn">
@@ -39,5 +39,13 @@ h1 {
 </style>
 
 <!--
-insert comment here!
+Gli elementi di form-vue sono 4:
+
+• VvForm -- equivale al tag form
+
+• VvFormWrapper -- equivale al tag fieldset
+
+• VvFormField -- si riferisce al tag input e alla sua label
+
+• VvFormTemplate -- si riferisce al JSON schema, un formato che abbiamo utilizzato in più progetti e non volevamo abbandonare
 -->

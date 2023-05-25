@@ -42,5 +42,5 @@ h1 {
 </style>
 
 <!--
-insert comment here!
+In questa slide vi mostro una semplice form di login creata in HTML puro e nelle slide successive andremo a vedere come comporla utilizzando form-vue
 -->

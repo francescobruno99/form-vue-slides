@@ -12,7 +12,7 @@ layout: end
         class="text-xl slidev-icon-btn opacity-80 !border-none !hover:text-white">
         <vscode-icons:file-type-vscode />
     </a>
-    <a href="https://vitejsviteawf4nc-0s0f--8080--fc9e1a28.local-credentialless.webcontainer.io" target="_blank" alt="GitHub"
+    <a href="https://vitejsviteawf4nc-0s0f--8080--fc9e1a28.local-credentialless.webcontainer.io/" target="_blank" alt="GitHub"
         class="text-xl slidev-icon-btn opacity-80 !border-none !hover:text-white">
         <logos:stackblitz-icon />
     </a>

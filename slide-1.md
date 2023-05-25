@@ -2,9 +2,7 @@
 transition: slide-up
 ---
 
-<h1>What is form-vue and what is it for?</h1>
-
-<!-- Slidev is a slides maker and presenter designed for developers, consist of the following features -->
+# What is form-vue and what is it for?
 
 <div class="form-vue-description">
   <h2> 
@@ -14,12 +12,6 @@ transition: slide-up
 <!-- <img src="/assets/volverjs-form.svg" > -->
 <br>
 <br>
-
-<!-- Read more about [Why Slidev?](https://sli.dev/guide/why) -->
-
-<!--
-Vue 3 forms made simple with @volverjs/ui-vue and Zod.
--->
 
 <style>
 h1 {
@@ -46,5 +38,6 @@ h1 {
 </style>
 
 <!--
-Here is another comment.
+Form vue permette la creazione di form di compilazione dati (dalle più semplici alle più complesse) utilizzando Vue 3, UI-Vue e Zod.
+I requisiti essenziali per poter utilizzare form-vue sono Vue 3 e Zod.
 -->

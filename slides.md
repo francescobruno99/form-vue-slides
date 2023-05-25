@@ -37,12 +37,6 @@ title: FORM-VUE
 </div>
 
 <style>
-  /* .slide1 {
-    background-image: url("/assets/bg-wave-left.svg"), url("/assets/bg-wave-right.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left top, right bottom;
-  } */
   h1 {
     color: #fff;
   }
@@ -55,8 +49,7 @@ title: FORM-VUE
 -->
 
 <!--
-  1. Cos’è from-vue e a cosa serve? 
-  -> form-vue è una libreria di volver che permette la creazione di form in Vue 3 con uno schema Zod Object
+  Form-vue è una delle librerie Vue presenti in Volver. (spiega con l'ausilio della slide successiva)
 -->
 
 ---

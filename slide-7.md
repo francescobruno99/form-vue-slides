@@ -57,6 +57,8 @@ td, th {
   padding: 0px !important;
 }
 </style>
+
 <!--
-insert comment here!
+VvFormField serve per creare i campi di input della form di compilazione.
+In questo esempio l'attributo type di VvFormField identifica il tipo di campo di cui abbiamo bisogno.
 -->

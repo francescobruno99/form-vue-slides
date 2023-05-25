@@ -63,7 +63,7 @@ Nel nostro contesto usiamo Zod per validare i campi delle nostre form.
 La validazione si costruisce attraverso lo Zod Object (vedi esempio rappresentato).
 
 Abbiamo scelto di utilizzare Zod perché:
-• semplice da utilizzare, molto intuitivo grazie a molte validazioni built-in
+• semplice da utilizzare, molto intuitivo grazie a molte regole di validazione built-in
 • utilizzato assieme a Typescript ci permette di documentare meglio il codice e di poter inferire il tipo
 • non ha dipendenze interne ed il peso del pacchetto è veramente irrisorio
 -->

@@ -62,5 +62,7 @@ h1 {
 </style>
 
 <!--
-insert comment here!
+VvWrapper rappresenta una sezione della form.
+Possiamo avere wrapper separati (sx) e wrapper innestati (dx).
+In entrambi i casi il concetto è lo stesso: il wrapper va in errore quando uno o più campi contenuti in esso sono in errore.
 -->
