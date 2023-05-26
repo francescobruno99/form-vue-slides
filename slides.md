@@ -81,6 +81,10 @@ src: './slide-7.md'
 ---
 
 ---
+src: './slide-7-bis.md'
+---
+
+---
 src: './slide-8.md'
 ---
 

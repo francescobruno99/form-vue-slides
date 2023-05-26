@@ -1,5 +1,5 @@
 ---
-layout: end
+layout: center
 ---
 
 <p>THANKS!</p>
